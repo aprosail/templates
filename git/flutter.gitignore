@@ -28,6 +28,9 @@ migrate_working_dir/
 .pub/
 build/
 
+# Flutter dependencies override for debug.
+pubspec_overrides.yaml
+
 # Ignore lockfile for potential usage of mirrors.
 pubspec.lock
 Podfile.lock
