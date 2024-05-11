@@ -1,7 +1,10 @@
+# Ignore lockfile for potential usage of mirrors.
+go.sum
+
 # Platform specified files.
 .DS_Store
 
-# Common code editors
+# Code editor setting files.
 .atom/
 .idea/
 .fleet/
