@@ -1,0 +1,2 @@
+# Specify eol normalization as lf.
+* text=auto eol=lf
