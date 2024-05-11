@@ -1,0 +1,15 @@
+# Ignore lockfile for potential usage of mirrors.
+go.sum
+
+# Platform specified files.
+.DS_Store
+
+# Code editor setting files.
+.atom/
+.idea/
+.fleet/
+*.iml
+*.ipr
+*.iws
+*.sln
+*.swp
