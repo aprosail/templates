@@ -1,0 +1,17 @@
+name: publish
+
+on:
+  workflow_call:
+
+jobs:
+  # https://dart.dev/tools/pub/automated-publishing
+  publish:
+    runs-on: ubuntu-latest
+    permissions: {id-token: write}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: dart-lang/setup-dart@v1
+      - uses: flutter-actions/setup-flutter@v3
+      - run: flutter pub get
+      - run: flutter pub publish --dry-run
+      - run: flutter pub publish --force
