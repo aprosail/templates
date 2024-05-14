@@ -6,4 +6,5 @@ on:
 
 jobs:
   publish:
+    permissions: {id-token: write}
     uses: aprosail/templates/.github/workflows/flutter-publish.yaml@main
