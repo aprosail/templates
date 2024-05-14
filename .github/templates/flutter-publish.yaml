@@ -1,8 +1,8 @@
 name: review
 
 on:
-  push: {branches: ["main", "dev"]}
-  pull_request: {branches: ["main", "dev"]}
+  push:
+    tags: ["v[0-9]+.[0-9]+.[0-9]+*"]
 
 jobs:
   review: {uses: aprosail/templates/.github/workflows/flutter-publish.yaml@main}
