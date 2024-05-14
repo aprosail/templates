@@ -11,5 +11,5 @@ jobs:
       - uses: flutter-actions/setup-flutter@v3
         with: {version: "3.19.6"}
       - run: flutter pub get
-      - run: flutter publish --dry-run
-      - run: flutter publish --force
+      - run: flutter pub publish --dry-run
+      - run: flutter pub publish --force
