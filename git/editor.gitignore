@@ -1,9 +1,0 @@
-# Common code editors
-.atom/
-.idea/
-.fleet/
-*.iml
-*.ipr
-*.iws
-*.sln
-*.swp
