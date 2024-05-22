@@ -5,7 +5,6 @@
 .atom/
 .idea/
 .fleet/
-project.pbxproj
 *.iml
 *.ipr
 *.iws
